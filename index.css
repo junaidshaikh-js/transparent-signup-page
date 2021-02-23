@@ -1,0 +1,70 @@
+/* css reset */
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 1rem = 10px */
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    background: url('./bg.jpg') no-repeat center/cover fixed;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+/* center everything */
+.wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* sign up */
+.sign-up h1{
+    font-size: 3rem;
+    border-bottom: 5px solid purple;
+    margin-bottom: 2rem;
+}
+
+.box{
+    border-bottom: 2px solid purple;
+}
+
+.box input{
+    width: 80%;
+    margin: 2rem 1.5rem;
+    padding: 0.2rem;
+    font-size: 1.6rem;
+    background: none;
+    border: none;
+    color: white;
+    outline: none;
+}
+
+.btn{
+    cursor: pointer;
+    outline: none;
+    width: 35%;
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 2px solid purple;
+    border-radius: 1.8rem;
+    font-size: 1.6rem;
+    background: none;
+    color: white;
+    transition: 0.5s ease;
+}
+
+.btn:hover{
+   background-color: white;
+   color: purple;
+   font-weight: bold;
+}
